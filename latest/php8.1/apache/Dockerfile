@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM php:8.3.10RC1-cli-bookworm
+FROM php:cli
 
 # persistent dependencies
 RUN set -eux; \
