@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM php:8.1-alpine
+FROM php:8.4.0beta5-alpine
 
 # install wp-cli dependencies
 RUN apk add --no-cache \
